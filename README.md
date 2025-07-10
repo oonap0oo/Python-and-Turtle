@@ -3,6 +3,10 @@ Projects using CPython and Turtle graphics
 
 ## truchet_tiles2.py
 ![truchet_tiles.gif](truchet_tiles.gif)
+
+code:
+![https://github.com/oonap0oo/Python-and-Turtle/blob/main/truchet_tiles2.py](https://github.com/oonap0oo/Python-and-Turtle/blob/main/truchet_tiles2.py)
+
 This script shows a series of patterns of Truchet Tiles.
 
 The tiles are drawn using the Turtle libary. All patters are made from 4 different tiles.
@@ -21,6 +25,9 @@ The patterns are defined as rows and columns of tile numbers, for this nested tu
 ## sierpinsky_turtle_cpython.py
 
 ![sierpinsky_turtle_cpython_screenshot.png](sierpinsky_turtle_cpython_screenshot.png)
+
+code:
+![https://github.com/oonap0oo/Python-and-Turtle/blob/main/sierpinsky_turtle_cpython.py](https://github.com/oonap0oo/Python-and-Turtle/blob/main/sierpinsky_turtle_cpython.py)
 
 This script draws a Sierpinsky triangle recursively using turtle. 
 
