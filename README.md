@@ -18,4 +18,12 @@ The patterns are defined as rows and columns of tile numbers, for this nested tu
         (4,4,2,1,2,2)
         )
 
-  
+## sierpinsky_turtle_cpython.py
+
+![sierpinsky_turtle_cpython_screenshot.png](sierpinsky_turtle_cpython_screenshot.png)
+
+This script draws a Sierpinsky triangle recursively using turtle. 
+
+This one makes use extra functionality in CPython's turtle on the PC, such as drawing filled shapes. 
+
+The code shows several triangles using  successively deeper recursion.
