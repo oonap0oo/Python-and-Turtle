@@ -22,6 +22,18 @@ The patterns are defined as rows and columns of tile numbers, for this nested tu
         (4,4,2,1,2,2)
         )
 
+## truchet_tiles2_random.py
+
+![truchet_tiles2_random.gif](truchet_tiles2_random.gif)
+
+code:
+![truchet_tiles2_random.py](truchet_tiles2_random.py)
+
+
+Randomly generated Truchet Tiles using complementery tiles for pleasing result.
+
+
+
 ## sierpinsky_turtle_cpython.py
 
 ![sierpinsky_turtle_cpython_screenshot.png](sierpinsky_turtle_cpython_screenshot.png)
