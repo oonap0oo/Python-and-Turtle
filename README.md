@@ -26,13 +26,13 @@ The patterns are defined as rows and columns of tile numbers, for this nested tu
 
 ![truchet_tiles2_random.gif](truchet_tiles2_random.gif)
 
-code:
-![truchet_tiles2_random.py](truchet_tiles2_random.py)
-
-
 Randomly generated Truchet Tiles using complementery tiles for pleasing result.
 
+code of version which loops automatically through random patterns, mouse click stops script:
+![truchet_tiles2_random.py](truchet_tiles2_random.py)
 
+code of version which saves pattern to text file when <a> key is pressed, loops to next random patterns with mouse click:
+![truchet_tiles2_random_with_save.py](truchet_tiles2_random_with_save.py)
 
 ## sierpinsky_turtle_cpython.py
 
