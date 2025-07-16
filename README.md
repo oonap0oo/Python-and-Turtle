@@ -34,6 +34,16 @@ code of version which loops automatically through random patterns, mouse click s
 code of version which saves pattern to text file when <a> key is pressed, loops to next random patterns with mouse click:
 ![truchet_tiles2_random_with_save.py](truchet_tiles2_random_with_save.py)
 
+## turtle_python_logo.py
+
+![turtle_python_logo_screenshot.png](turtle_python_logo_screenshot.png)
+
+This script defines a fucntion to draw an ellipse using Turtle graphics.
+
+Turtle graphics does have a circle function but no ellipse.
+
+The ellipse function is then used to draw a python logo suing Turtle graphics.
+
 ## sierpinsky_turtle_cpython.py
 
 ![sierpinsky_turtle_cpython_screenshot.png](sierpinsky_turtle_cpython_screenshot.png)
