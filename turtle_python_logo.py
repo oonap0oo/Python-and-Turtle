@@ -1,14 +1,14 @@
-# define fucntion to draw ellipse using Turtle graphics
-# use this fucntion to draw a python logo
+# define function to draw ellipse using Turtle graphics
+# use this function to draw a python logo
 import turtle as tl
 from math import *
 
-# turtle graphics does have circle but nu ellipse
+# turtle graphics does have circle but no ellipse
 # this function draws ellipse
 # a, b: size of ellipse
 # direction: positive for counterclockwise, negative for clockwise
-# keywordr arguements:
-# ectent: part of ellipse to draw as angle in degrees
+# keyword arguements:
+# extent: part of ellipse to draw as angle in degrees
 # npoints: number of steps to use
 def ellipse(a, b , direction, **kwargs):
     def rotate(x, y, angle_deg): # rotate x,y point by angle
@@ -37,7 +37,7 @@ def ellipse(a, b , direction, **kwargs):
 # draw one half of python logo and a seperate circle for the eye
 def draw_shape(color_shape, color_eye):
     # draw the shape
-    tl.fillcolor(color_shape)
+    tl.color(color_shape)
     tl.begin_fill()
     tl.pendown()
     tl.forward(100)
@@ -64,7 +64,7 @@ def draw_shape(color_shape, color_eye):
     tl.left(90)
     tl.forward(5)
     tl.pendown()
-    tl.fillcolor(color_eye)
+    tl.color(color_eye)
     tl.begin_fill()
     tl.circle(27)
     tl.end_fill()
@@ -77,6 +77,8 @@ def init():
     screen.setup(width = screen_width, height = screen_height)
     # set speed of turtle
     tl.speed(0)
+    tl.tracer(n = 2)
+    tl.title(title)
 
 
 # parameters
@@ -84,6 +86,7 @@ color1 = "#3b77a8" # blue color
 color2 = "#ffe05d" # yellow color
 screen_width, screen_height = 1300, 800
 background_color = "white"
+title = "Python logo using Turtle graphics with ellipse function"
 
 # set up turtle
 init()
@@ -102,9 +105,11 @@ tl.setheading(180)
 draw_shape(color2, background_color)
 
 # draw text
+tl.color(color1)
 tl.penup()
 tl.goto(100,80)
 tl.write("python", align = "left", font = (None, 65, "normal"))
+tl.color(color2)
 tl.goto(110,0)
 tl.write("using Turtle graphics", align = "left", font = (None, 20, "normal"))
 
