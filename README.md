@@ -36,7 +36,7 @@ code of version which saves pattern to text file when <a> key is pressed, loops 
 
 ## spiral.py
 
-![spiral_screenshot.png](spiral_screenshot.png)
+![spiral.gif](spiral.gif)
 
 An animated spiral effect using Turtle graphics
 
