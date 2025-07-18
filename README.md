@@ -34,6 +34,12 @@ code of version which loops automatically through random patterns, mouse click s
 code of version which saves pattern to text file when <a> key is pressed, loops to next random patterns with mouse click:
 ![truchet_tiles2_random_with_save.py](truchet_tiles2_random_with_save.py)
 
+## spiral.py
+
+![spiral_screenshot.png](spiral_screenshot.png)
+
+An animated spiral effect using Turtle graphics
+
 ## turtle_python_logo.py
 
 ![turtle_python_logo_screenshot.png](turtle_python_logo_screenshot.png)
