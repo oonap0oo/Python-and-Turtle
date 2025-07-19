@@ -113,3 +113,4 @@ tl.color(color2)
 tl.goto(110,0)
 tl.write("using Turtle graphics", align = "left", font = (None, 20, "normal"))
 
+tl.done()
