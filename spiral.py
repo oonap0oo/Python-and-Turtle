@@ -15,7 +15,8 @@ def init():
     # assign mouse click handler for terminating script
     screen.onclick(mouse_click_handler)
 
-def spiral():
+# draw one spiral
+def spiral(frequency):
     tl.clear()
     angle = number_rotations * 360
     for step in range(number_steps_per_rotation * number_rotations):
@@ -36,15 +37,15 @@ def spiral():
 def mouse_click_handler(x,y):
     quit()
 
-def update():
-    global frequency, delta_frequency
-    spiral()
+# draw new psiral and update frequency
+def update(frequency, delta_frequency):
+    spiral(frequency)
     if frequency >= freq_upper:
         delta_frequency = -3
     elif frequency <= freq_lower:
         delta_frequency = 3
     frequency += delta_frequency
-    tl.ontimer(update, time_delay_ms) # set timer for next update
+    tl.ontimer(update(frequency, delta_frequency), time_delay_ms) # set timer for next update
 
 # parameters
 colors = ("#3b77a8", # blue color
@@ -63,6 +64,4 @@ freq_lower = -11
 
 init()
   
-frequency = freq_upper
-delta_frequency = -3
-update() # first time call update immediatly
+update(freq_upper, -3) # first time call update immediatly
