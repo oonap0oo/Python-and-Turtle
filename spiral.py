@@ -65,3 +65,5 @@ freq_lower = -11
 init()
   
 update(freq_upper, -3) # first time call update immediatly
+
+tl.done()
