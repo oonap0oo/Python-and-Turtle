@@ -164,11 +164,11 @@ init()
 
 print("""Randomly generated Truchet Tiles using Python & Turtle
 when key <s> is pressed save the pattern to a text file
-mouse click in the window to stop the script""")
+mouse click in the window to show next pattern""")
 
 update() # first time call update immediatly
 
-
+tl.done()
 
 
      

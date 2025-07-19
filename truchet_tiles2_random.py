@@ -115,7 +115,7 @@ def generate_random_pattern(half_number_of_rows, half_number_of_columns):
         new_row = []
         for column in range(half_number_of_columns):
             new_row.append(value)
-            value += random.choice([-3,-1,1,3]) # next tile based on previous either add or subtract 3
+            value += random.choice([-3,-1,1,3]) # next tile based on previous either add or subtract 1 or 3
             value = (value - 1) % 4 + 1 # tile value wraps around if outside 1..4
         for column in range(half_number_of_columns - 1, -1, -1):
             first_tile = new_row[column]
@@ -148,7 +148,7 @@ init()
 
 update() # first time call update immediatly
 
-
+tl.done()
 
 
      

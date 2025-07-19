@@ -1,6 +1,6 @@
 # Truchet Tiles
 import turtle as tl
-import random
+#import random
 
 
 # parameters
@@ -166,7 +166,7 @@ patterns = (pattern_D,
             pattern_T,
             pattern_Z)
 
-patterns = random.sample(patterns, len(patterns))
+#patterns = random.sample(patterns, len(patterns))
 
 #patterns = (pattern_3,) # to test 1 pattern
 
@@ -249,13 +249,13 @@ def repeat_pattern(pattern, number_of_rows, number_of_columns):
             draw_pattern(pattern, x_top_pattern, y_top_pattern)
     tl.update()
 
-# mouse click in the window to stop the script
+# mouse click in the window to update
 def mouse_click_handler(x,y):
-    quit()
+    update()
 
-# loop through patterns; calls itself with timer function of turtle
+# loop through patterns
 def update():
-    tl.ontimer(update, time_delay_ms) # set timer for next update
+    #tl.ontimer(update, time_delay_ms) # set timer for next update
     global index
     pattern = patterns[index]
     if index < len(patterns) - 1:
@@ -273,8 +273,7 @@ init()
 
 update() # first time call update immediatly
 
-tl.update()
-
+tl.done()
 
      
 
