@@ -5,6 +5,9 @@ Projects using CPython and Turtle graphics
 
 ![recursive_tree1.gif](recursive_tree1.gif)
 
+Code:
+![https://github.com/oonap0oo/Python-and-Turtle/blob/main/recursive_tree_turtle_random2.py](https://github.com/oonap0oo/Python-and-Turtle/blob/main/recursive_tree_turtle_random2.py)
+
 This script draws recursively generated trees. 
 
 A lot of the tree's parameters have random variation. 
@@ -48,11 +51,17 @@ code of version which saves pattern to text file when <a> key is pressed, loops 
 
 ![spiral.gif](spiral.gif)
 
+code:
+![https://github.com/oonap0oo/Python-and-Turtle/blob/main/spiral.py](https://github.com/oonap0oo/Python-and-Turtle/blob/main/spiral.py)
+
 An animated spiral effect using Turtle graphics
 
 ## turtle_python_logo.py
 
 ![turtle_python_logo_screenshot.png](turtle_python_logo_screenshot.png)
+
+Code:
+![https://github.com/oonap0oo/Python-and-Turtle/blob/main/turtle_python_logo.py](https://github.com/oonap0oo/Python-and-Turtle/blob/main/turtle_python_logo.py)
 
 This script defines a fucntion to draw an ellipse using Turtle graphics.
 
