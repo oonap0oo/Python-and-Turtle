@@ -1,6 +1,16 @@
 # Python-and-Turtle
 Projects using CPython and Turtle graphics
 
+## recursive_tree_turtle_random2.py
+
+!recursive_tree1.gif](recursive_tree1.gif)
+
+This script draws recursively generated trees. 
+
+A lot of the tree's parameters have random variation. 
+
+The code uses Turtle graphics for drawing and the timer function.
+
 ## truchet_tiles2.py
 ![truchet_tiles.gif](truchet_tiles.gif)
 
