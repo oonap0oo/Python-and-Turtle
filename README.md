@@ -1,12 +1,10 @@
 # Python-and-Turtle
 Projects using CPython and Turtle graphics
 
-## recursive_tree_turtle_random2.py
+## [recursive_tree_turtle_random2.py](recursive_tree_turtle_random2.py)
+
 
 ![recursive_tree1.gif](recursive_tree1.gif)
-
-Code:
-![https://github.com/oonap0oo/Python-and-Turtle/blob/main/recursive_tree_turtle_random2.py](https://github.com/oonap0oo/Python-and-Turtle/blob/main/recursive_tree_turtle_random2.py)
 
 This script draws recursively generated trees. 
 
@@ -14,11 +12,9 @@ A lot of the tree's parameters have random variation.
 
 The code uses Turtle graphics for drawing and the timer function.
 
-## truchet_tiles2.py
-![truchet_tiles.gif](truchet_tiles.gif)
+## [truchet_tiles2.py](truchet_tiles2.py)
 
-code:
-![https://github.com/oonap0oo/Python-and-Turtle/blob/main/truchet_tiles2.py](https://github.com/oonap0oo/Python-and-Turtle/blob/main/truchet_tiles2.py)
+![truchet_tiles.gif](truchet_tiles.gif)
 
 This script shows a series of patterns of Truchet Tiles.
 
@@ -35,7 +31,8 @@ The patterns are defined as rows and columns of tile numbers, for this nested tu
         (4,4,2,1,2,2)
         )
 
-## truchet_tiles2_random.py
+## [truchet_tiles2_random.py](truchet_tiles2_random.py)
+
 
 ![truchet_tiles2_random.gif](truchet_tiles2_random.gif)
 
@@ -47,21 +44,17 @@ code of version which loops automatically through random patterns, mouse click s
 code of version which saves pattern to text file when <a> key is pressed, loops to next random patterns with mouse click:
 ![truchet_tiles2_random_with_save.py](truchet_tiles2_random_with_save.py)
 
-## spiral.py
+## [spiral.py](spiral.py)
+
 
 ![spiral.gif](spiral.gif)
 
-code:
-![https://github.com/oonap0oo/Python-and-Turtle/blob/main/spiral.py](https://github.com/oonap0oo/Python-and-Turtle/blob/main/spiral.py)
-
 An animated spiral effect using Turtle graphics
 
-## turtle_python_logo.py
+## [turtle_python_logo.py](turtle_python_logo.py)
+
 
 ![turtle_python_logo_screenshot.png](turtle_python_logo_screenshot.png)
-
-Code:
-![https://github.com/oonap0oo/Python-and-Turtle/blob/main/turtle_python_logo.py](https://github.com/oonap0oo/Python-and-Turtle/blob/main/turtle_python_logo.py)
 
 This script defines a fucntion to draw an ellipse using Turtle graphics.
 
@@ -69,12 +62,10 @@ Turtle graphics does have a circle function but no ellipse.
 
 The ellipse function is then used to draw a python logo suing Turtle graphics.
 
-## sierpinsky_turtle_cpython.py
+## [sierpinsky_turtle_cpython.py](sierpinsky_turtle_cpython.py)
+
 
 ![sierpinsky_turtle_cpython_screenshot.png](sierpinsky_turtle_cpython_screenshot.png)
-
-code:
-![https://github.com/oonap0oo/Python-and-Turtle/blob/main/sierpinsky_turtle_cpython.py](https://github.com/oonap0oo/Python-and-Turtle/blob/main/sierpinsky_turtle_cpython.py)
 
 This script draws a Sierpinsky triangle recursively using turtle. 
 
