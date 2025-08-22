@@ -64,7 +64,6 @@ The ellipse function is then used to draw a python logo suing Turtle graphics.
 
 ## [sierpinsky_turtle_cpython.py](sierpinsky_turtle_cpython.py)
 
-
 ![sierpinsky_turtle_cpython_screenshot.png](sierpinsky_turtle_cpython_screenshot.png)
 
 This script draws a Sierpinsky triangle recursively using turtle. 
@@ -72,3 +71,19 @@ This script draws a Sierpinsky triangle recursively using turtle.
 This one makes use extra functionality in CPython's turtle on the PC, such as drawing filled shapes. 
 
 The code shows several triangles using  successively deeper recursion.
+
+## [phyllotaxis2.py](phyllotaxis2.py)
+
+![phyllotaxis2_recording.gif](phyllotaxis2_recording.gif)
+
+This script produces images generated using the Vogel formula coming from the field of Phyllotaxis.
+
+    φ = n * 137.5
+    r = c * √n
+    n: index of element
+    c: constant
+    r: radius
+    φ: azimith
+
+It shows combinations of symbols and color sets.
+
