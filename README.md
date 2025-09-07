@@ -1,7 +1,13 @@
 # Python-and-Turtle
 Projects using CPython and Turtle graphics
 
-[tree_turtle_random2.py](https://github.com/oonap0oo/Python-and-Turtle#recursive_tree_turtle_random2py)
+* [tree_turtle_random2.py](https://github.com/oonap0oo/Python-and-Turtle#recursive_tree_turtle_random2py)
+* [truchet_tiles2.py](https://github.com/oonap0oo/Python-and-Turtle#truchet_tiles2py)
+* [spiral.py](https://github.com/oonap0oo/Python-and-Turtle#spiralpy)
+* [turtle_python_logo.py](https://github.com/oonap0oo/Python-and-Turtle#turtle_python_logopy)
+* [sierpinsky_turtle_cpython.py](https://github.com/oonap0oo/Python-and-Turtle#sierpinsky_turtle_cpythonpy)
+* [phyllotaxis2.py](https://github.com/oonap0oo/Python-and-Turtle#phyllotaxis2py)
+
 
 ## [recursive_tree_turtle_random2.py](recursive_tree_turtle_random2.py)
 
