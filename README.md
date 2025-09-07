@@ -2,11 +2,19 @@
 Projects using CPython and Turtle graphics
 
 * [tree_turtle_random2.py](https://github.com/oonap0oo/Python-and-Turtle#recursive_tree_turtle_random2py)
+This script draws recursively generated trees. A lot of the tree's parameters have random variation.
 * [truchet_tiles2.py](https://github.com/oonap0oo/Python-and-Turtle#truchet_tiles2py)
+This script shows a series of patterns of Truchet Tiles.The tiles are drawn using the Turtle libary. All patterns are made from 4 different tiles.
+* [truchet_tiles2_random.py](https://github.com/oonap0oo/Python-and-Turtle#truchet_tiles2_randompy)
+Randomly generated Truchet Tiles using complementery tiles for pleasing result.
 * [spiral.py](https://github.com/oonap0oo/Python-and-Turtle#spiralpy)
+An animated spiral effect using Turtle graphics
 * [turtle_python_logo.py](https://github.com/oonap0oo/Python-and-Turtle#turtle_python_logopy)
+This script defines a fucntion to draw an ellipse using Turtle graphics. Turtle graphics does have a circle function but no ellipse. The ellipse function is then used to draw a python logo suing Turtle graphics.
 * [sierpinsky_turtle_cpython.py](https://github.com/oonap0oo/Python-and-Turtle#sierpinsky_turtle_cpythonpy)
+This script draws a Sierpinsky triangle recursively using turtle.
 * [phyllotaxis2.py](https://github.com/oonap0oo/Python-and-Turtle#phyllotaxis2py)
+This script produces images generated using the Vogel formula coming from the field of Phyllotaxis. It shows combinations of symbols and color sets.
 
 
 ## [recursive_tree_turtle_random2.py](recursive_tree_turtle_random2.py)
