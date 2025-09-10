@@ -15,6 +15,9 @@ This script defines a fucntion to draw an ellipse using Turtle graphics. Turtle 
 This script draws a Sierpinsky triangle recursively using turtle.
 * [phyllotaxis2.py](https://github.com/oonap0oo/Python-and-Turtle#phyllotaxis2py)
 This script produces images generated using the Vogel formula coming from the field of Phyllotaxis. It shows combinations of symbols and color sets.
+* [orbits.py](https://github.com/oonap0oo/orbitspy) This code calculates and draws some trajectories of objects around the earth. The orbits are calculated from the acceleration based on Newton's law of universal gravitation
+* [polygon2.py](https://github.com/oonap0oo/polygon2py) This code displays an animated image consisting of sets of polygons. The number of polygons as well as their number of corner points are increased and descreased. 
+
 
 
 ## [recursive_tree_turtle_random2.py](recursive_tree_turtle_random2.py)
@@ -102,4 +105,49 @@ This script produces images generated using the Vogel formula coming from the fi
     φ: azimith
 
 It shows combinations of symbols and color sets.
+
+## [orbits.py](orbits.py)
+
+![orbits_screenshot.png](orbits_screenshot.png)
+
+This code calculates and draws some trajectories of objects around the earth in two dimensions x,y
+
+*  Geostationary orbit
+*  Elliptical orbits
+*  Hyperbolic trajectories
+
+The orbits are calculated from the acceleration based on Newton's law of universal gravitation.
+
+Newton's law of universal gravitation
+
+    F = G * m1 * m2 / r**2
+
+On an object in orbit
+
+    F_attraction = - G * mass_earth * mass_object / r_distance**2
+
+(F in opposite direction of r)
+
+Newton's second law of motion
+
+    F = m.a => a = F / m
+    => a_object = F_attraction / mass_object
+
+Acelleration due to gravity
+
+    => a_object = - G * mass_earth / r_distance**2
+
+The code uses Turtle graphics for drawing.
+
+Calculations are done just using the math library.
+
+## [polygon2.py](polygon2.py)
+
+![polygon2_recording.gif](polygon2_recording.gif)
+
+This code displays an animated image consisting of sets of polygons. 
+
+The number of polygons as well as their number of corner points are increased and descreased. 
+
+Also the color of the segments is variable.
 
